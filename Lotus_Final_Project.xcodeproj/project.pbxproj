@@ -17,6 +17,10 @@
 		BDF19F7128871F56009DB722 /* Lotus_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F7028871F56009DB722 /* Lotus_Final_ProjectTests.swift */; };
 		BDF19F7B28871F56009DB722 /* Lotus_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F7A28871F56009DB722 /* Lotus_Final_ProjectUITests.swift */; };
 		BDF19F7D28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F7C28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift */; };
+		BDF19F8A28873032009DB722 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F8928873032009DB722 /* MainViewController.swift */; };
+		BDF19F8C28873063009DB722 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F8B28873063009DB722 /* GeneratorViewController.swift */; };
+		BDF19F8E2887307F009DB722 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F8D2887307F009DB722 /* ProfileViewController.swift */; };
+		BDF19F90288730CB009DB722 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F8F288730CB009DB722 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		BDF19F7628871F56009DB722 /* Lotus_Final_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lotus_Final_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF19F7A28871F56009DB722 /* Lotus_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		BDF19F7C28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF19F8928873032009DB722 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BDF19F8B28873063009DB722 /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		BDF19F8D2887307F009DB722 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BDF19F8F288730CB009DB722 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				BDF19F5828871F54009DB722 /* SceneDelegate.swift */,
 				BDF19F5A28871F54009DB722 /* ViewController.swift */,
 				BDF19F5C28871F54009DB722 /* Main.storyboard */,
+				BDF19F8F288730CB009DB722 /* PostViewController.swift */,
+				BDF19F8D2887307F009DB722 /* ProfileViewController.swift */,
+				BDF19F8B28873063009DB722 /* GeneratorViewController.swift */,
+				BDF19F8928873032009DB722 /* MainViewController.swift */,
 				BDF19F6228871F55009DB722 /* Assets.xcassets */,
 				BDF19F6428871F55009DB722 /* LaunchScreen.storyboard */,
 				BDF19F6728871F55009DB722 /* Info.plist */,
@@ -261,10 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF19F90288730CB009DB722 /* PostViewController.swift in Sources */,
 				BDF19F6128871F54009DB722 /* Lotus_Final_Project.xcdatamodeld in Sources */,
 				BDF19F5B28871F54009DB722 /* ViewController.swift in Sources */,
 				BDF19F5728871F54009DB722 /* AppDelegate.swift in Sources */,
 				BDF19F5928871F54009DB722 /* SceneDelegate.swift in Sources */,
+				BDF19F8E2887307F009DB722 /* ProfileViewController.swift in Sources */,
+				BDF19F8C28873063009DB722 /* GeneratorViewController.swift in Sources */,
+				BDF19F8A28873032009DB722 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

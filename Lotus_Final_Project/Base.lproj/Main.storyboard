@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="84"/>
         </scene>
-        <!--View Controller-->
+        <!--Generator View Controller-->
         <scene sceneID="zbc-X6-e2j">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="fdV-vd-X7B" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="fdV-vd-X7B" customClass="GeneratorViewController" customModule="Lotus_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Ph-e0-PVF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="843" y="827"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="XbU-xr-uRB">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Woz-Ml-RSP" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Woz-Ml-RSP" customClass="ProfileViewController" customModule="Lotus_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ek2-ts-69o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="1687" y="810"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="SDe-ag-09W">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vy9-RI-MX6" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vy9-RI-MX6" customClass="MainViewController" customModule="Lotus_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ozn-TZ-EtA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +104,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Post"/>
+                                <connections>
+                                    <segue destination="6ub-Yj-rvC" kind="show" id="5WU-AA-5eW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49U-l5-zoa">
                                 <rect key="frame" x="64" y="809" width="55" height="31"/>
@@ -120,6 +123,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibl-iy-d8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="818.84057971014499" y="94.419642857142847"/>
+        </scene>
+        <!--Post View Controller-->
+        <scene sceneID="s2X-fP-ad4">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="6ub-Yj-rvC" customClass="PostViewController" customModule="Lotus_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xeH-5M-1Sv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Y6c-JH-FL5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="r8x-Ci-sxf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Asp-qv-PPZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715" y="104"/>
         </scene>
     </scenes>
     <resources>
