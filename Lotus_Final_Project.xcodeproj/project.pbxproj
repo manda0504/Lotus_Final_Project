@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF19F5728871F54009DB722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F5628871F54009DB722 /* AppDelegate.swift */; };
+		BDF19F5928871F54009DB722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F5828871F54009DB722 /* SceneDelegate.swift */; };
+		BDF19F5B28871F54009DB722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F5A28871F54009DB722 /* ViewController.swift */; };
+		BDF19F5E28871F54009DB722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF19F5C28871F54009DB722 /* Main.storyboard */; };
+		BDF19F6128871F54009DB722 /* Lotus_Final_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F5F28871F54009DB722 /* Lotus_Final_Project.xcdatamodeld */; };
+		BDF19F6328871F55009DB722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF19F6228871F55009DB722 /* Assets.xcassets */; };
+		BDF19F6628871F55009DB722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF19F6428871F55009DB722 /* LaunchScreen.storyboard */; };
+		BDF19F7128871F56009DB722 /* Lotus_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F7028871F56009DB722 /* Lotus_Final_ProjectTests.swift */; };
+		BDF19F7B28871F56009DB722 /* Lotus_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F7A28871F56009DB722 /* Lotus_Final_ProjectUITests.swift */; };
+		BDF19F7D28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F7C28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF19F6D28871F56009DB722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF19F4B28871F54009DB722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF19F5228871F54009DB722;
+			remoteInfo = Lotus_Final_Project;
+		};
+		BDF19F7728871F56009DB722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF19F4B28871F54009DB722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF19F5228871F54009DB722;
+			remoteInfo = Lotus_Final_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF19F5328871F54009DB722 /* Lotus_Final_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lotus_Final_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF19F5628871F54009DB722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF19F5828871F54009DB722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDF19F5A28871F54009DB722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF19F5D28871F54009DB722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF19F6028871F54009DB722 /* Lotus_Final_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lotus_Final_Project.xcdatamodel; sourceTree = "<group>"; };
+		BDF19F6228871F55009DB722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF19F6528871F55009DB722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF19F6728871F55009DB722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF19F6C28871F56009DB722 /* Lotus_Final_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lotus_Final_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF19F7028871F56009DB722 /* Lotus_Final_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_Final_ProjectTests.swift; sourceTree = "<group>"; };
+		BDF19F7628871F56009DB722 /* Lotus_Final_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lotus_Final_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF19F7A28871F56009DB722 /* Lotus_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_Final_ProjectUITests.swift; sourceTree = "<group>"; };
+		BDF19F7C28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF19F5028871F54009DB722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF19F6928871F56009DB722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF19F7328871F56009DB722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF19F4A28871F54009DB722 = {
+			isa = PBXGroup;
+			children = (
+				BDF19F5528871F54009DB722 /* Lotus_Final_Project */,
+				BDF19F6F28871F56009DB722 /* Lotus_Final_ProjectTests */,
+				BDF19F7928871F56009DB722 /* Lotus_Final_ProjectUITests */,
+				BDF19F5428871F54009DB722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF19F5428871F54009DB722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF19F5328871F54009DB722 /* Lotus_Final_Project.app */,
+				BDF19F6C28871F56009DB722 /* Lotus_Final_ProjectTests.xctest */,
+				BDF19F7628871F56009DB722 /* Lotus_Final_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF19F5528871F54009DB722 /* Lotus_Final_Project */ = {
+			isa = PBXGroup;
+			children = (
+				BDF19F5628871F54009DB722 /* AppDelegate.swift */,
+				BDF19F5828871F54009DB722 /* SceneDelegate.swift */,
+				BDF19F5A28871F54009DB722 /* ViewController.swift */,
+				BDF19F5C28871F54009DB722 /* Main.storyboard */,
+				BDF19F6228871F55009DB722 /* Assets.xcassets */,
+				BDF19F6428871F55009DB722 /* LaunchScreen.storyboard */,
+				BDF19F6728871F55009DB722 /* Info.plist */,
+				BDF19F5F28871F54009DB722 /* Lotus_Final_Project.xcdatamodeld */,
+			);
+			path = Lotus_Final_Project;
+			sourceTree = "<group>";
+		};
+		BDF19F6F28871F56009DB722 /* Lotus_Final_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF19F7028871F56009DB722 /* Lotus_Final_ProjectTests.swift */,
+			);
+			path = Lotus_Final_ProjectTests;
+			sourceTree = "<group>";
+		};
+		BDF19F7928871F56009DB722 /* Lotus_Final_ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF19F7A28871F56009DB722 /* Lotus_Final_ProjectUITests.swift */,
+				BDF19F7C28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift */,
+			);
+			path = Lotus_Final_ProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF19F5228871F54009DB722 /* Lotus_Final_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF19F8028871F56009DB722 /* Build configuration list for PBXNativeTarget "Lotus_Final_Project" */;
+			buildPhases = (
+				BDF19F4F28871F54009DB722 /* Sources */,
+				BDF19F5028871F54009DB722 /* Frameworks */,
+				BDF19F5128871F54009DB722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lotus_Final_Project;
+			productName = Lotus_Final_Project;
+			productReference = BDF19F5328871F54009DB722 /* Lotus_Final_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF19F6B28871F56009DB722 /* Lotus_Final_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF19F8328871F56009DB722 /* Build configuration list for PBXNativeTarget "Lotus_Final_ProjectTests" */;
+			buildPhases = (
+				BDF19F6828871F56009DB722 /* Sources */,
+				BDF19F6928871F56009DB722 /* Frameworks */,
+				BDF19F6A28871F56009DB722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF19F6E28871F56009DB722 /* PBXTargetDependency */,
+			);
+			name = Lotus_Final_ProjectTests;
+			productName = Lotus_Final_ProjectTests;
+			productReference = BDF19F6C28871F56009DB722 /* Lotus_Final_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF19F7528871F56009DB722 /* Lotus_Final_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF19F8628871F56009DB722 /* Build configuration list for PBXNativeTarget "Lotus_Final_ProjectUITests" */;
+			buildPhases = (
+				BDF19F7228871F56009DB722 /* Sources */,
+				BDF19F7328871F56009DB722 /* Frameworks */,
+				BDF19F7428871F56009DB722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF19F7828871F56009DB722 /* PBXTargetDependency */,
+			);
+			name = Lotus_Final_ProjectUITests;
+			productName = Lotus_Final_ProjectUITests;
+			productReference = BDF19F7628871F56009DB722 /* Lotus_Final_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF19F4B28871F54009DB722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BDF19F5228871F54009DB722 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BDF19F6B28871F56009DB722 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDF19F5228871F54009DB722;
+					};
+					BDF19F7528871F56009DB722 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDF19F5228871F54009DB722;
+					};
+				};
+			};
+			buildConfigurationList = BDF19F4E28871F54009DB722 /* Build configuration list for PBXProject "Lotus_Final_Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF19F4A28871F54009DB722;
+			productRefGroup = BDF19F5428871F54009DB722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF19F5228871F54009DB722 /* Lotus_Final_Project */,
+				BDF19F6B28871F56009DB722 /* Lotus_Final_ProjectTests */,
+				BDF19F7528871F56009DB722 /* Lotus_Final_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF19F5128871F54009DB722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF19F6628871F55009DB722 /* LaunchScreen.storyboard in Resources */,
+				BDF19F6328871F55009DB722 /* Assets.xcassets in Resources */,
+				BDF19F5E28871F54009DB722 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF19F6A28871F56009DB722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF19F7428871F56009DB722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF19F4F28871F54009DB722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF19F6128871F54009DB722 /* Lotus_Final_Project.xcdatamodeld in Sources */,
+				BDF19F5B28871F54009DB722 /* ViewController.swift in Sources */,
+				BDF19F5728871F54009DB722 /* AppDelegate.swift in Sources */,
+				BDF19F5928871F54009DB722 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF19F6828871F56009DB722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF19F7128871F56009DB722 /* Lotus_Final_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF19F7228871F56009DB722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF19F7B28871F56009DB722 /* Lotus_Final_ProjectUITests.swift in Sources */,
+				BDF19F7D28871F56009DB722 /* Lotus_Final_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF19F6E28871F56009DB722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF19F5228871F54009DB722 /* Lotus_Final_Project */;
+			targetProxy = BDF19F6D28871F56009DB722 /* PBXContainerItemProxy */;
+		};
+		BDF19F7828871F56009DB722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF19F5228871F54009DB722 /* Lotus_Final_Project */;
+			targetProxy = BDF19F7728871F56009DB722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF19F5C28871F54009DB722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF19F5D28871F54009DB722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF19F6428871F55009DB722 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF19F6528871F55009DB722 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF19F7E28871F56009DB722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF19F7F28871F56009DB722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF19F8128871F56009DB722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lotus_Final_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kwk.Lotus-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF19F8228871F56009DB722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lotus_Final_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kwk.Lotus-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDF19F8428871F56009DB722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kwk.Lotus-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus_Final_Project.app/Lotus_Final_Project";
+			};
+			name = Debug;
+		};
+		BDF19F8528871F56009DB722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kwk.Lotus-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus_Final_Project.app/Lotus_Final_Project";
+			};
+			name = Release;
+		};
+		BDF19F8728871F56009DB722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kwk.Lotus-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lotus_Final_Project;
+			};
+			name = Debug;
+		};
+		BDF19F8828871F56009DB722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.kwk.Lotus-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lotus_Final_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF19F4E28871F54009DB722 /* Build configuration list for PBXProject "Lotus_Final_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF19F7E28871F56009DB722 /* Debug */,
+				BDF19F7F28871F56009DB722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF19F8028871F56009DB722 /* Build configuration list for PBXNativeTarget "Lotus_Final_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF19F8128871F56009DB722 /* Debug */,
+				BDF19F8228871F56009DB722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF19F8328871F56009DB722 /* Build configuration list for PBXNativeTarget "Lotus_Final_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF19F8428871F56009DB722 /* Debug */,
+				BDF19F8528871F56009DB722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF19F8628871F56009DB722 /* Build configuration list for PBXNativeTarget "Lotus_Final_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF19F8728871F56009DB722 /* Debug */,
+				BDF19F8828871F56009DB722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF19F5F28871F54009DB722 /* Lotus_Final_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF19F6028871F54009DB722 /* Lotus_Final_Project.xcdatamodel */,
+			);
+			currentVersion = BDF19F6028871F54009DB722 /* Lotus_Final_Project.xcdatamodel */;
+			path = Lotus_Final_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDF19F4B28871F54009DB722 /* Project object */;
+}
