@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CD68E982888640500B6545E /* ProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD68E972888640500B6545E /* ProfileSettingsViewController.swift */; };
 		BDF19F5728871F54009DB722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F5628871F54009DB722 /* AppDelegate.swift */; };
 		BDF19F5928871F54009DB722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F5828871F54009DB722 /* SceneDelegate.swift */; };
 		BDF19F5B28871F54009DB722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF19F5A28871F54009DB722 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CD68E972888640500B6545E /* ProfileSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsViewController.swift; sourceTree = "<group>"; };
 		BDF19F5328871F54009DB722 /* Lotus_Final_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lotus_Final_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF19F5628871F54009DB722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF19F5828871F54009DB722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				BDF19F6428871F55009DB722 /* LaunchScreen.storyboard */,
 				BDF19F6728871F55009DB722 /* Info.plist */,
 				BDF19F5F28871F54009DB722 /* Lotus_Final_Project.xcdatamodeld */,
+				6CD68E972888640500B6545E /* ProfileSettingsViewController.swift */,
 			);
 			path = Lotus_Final_Project;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF19F90288730CB009DB722 /* PostViewController.swift in Sources */,
+				6CD68E982888640500B6545E /* ProfileSettingsViewController.swift in Sources */,
 				BDF19F6128871F54009DB722 /* Lotus_Final_Project.xcdatamodeld in Sources */,
 				BDF19F5B28871F54009DB722 /* ViewController.swift in Sources */,
 				BDF19F5728871F54009DB722 /* AppDelegate.swift in Sources */,
