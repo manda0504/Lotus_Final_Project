@@ -9,6 +9,10 @@ import UIKit
 
 class PostViewController: UIViewController {
 
+    @IBAction func selectImageButton(_ sender: UIButton) {
+    }
+    @IBOutlet weak var pictureSelected: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
