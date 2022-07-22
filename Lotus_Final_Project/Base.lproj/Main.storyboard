@@ -37,6 +37,10 @@
                                 <color key="textColor" red="1" green="0.92156862750000001" blue="0.77647058820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="wRd-bo-DCg">
+                                <rect key="frame" x="41" y="276" width="393" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.0" green="0.21925603126992985" blue="0.26496451241629465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -346,6 +350,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Change Picture">
                                     <color key="baseForegroundColor" red="0.29803921570000003" green="0.5" blue="0.38823529410000002" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TGl-su-kMa" kind="show" id="AUL-Xd-5Z6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vv-2R-9fQ">
                                 <rect key="frame" x="155" y="529" width="105" height="38"/>
@@ -375,7 +382,7 @@
             <objects>
                 <viewController id="TGl-su-kMa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cXb-N5-9wX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7a8-Q0-7fy">
@@ -1029,6 +1036,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="AUL-Xd-5Z6"/>
         <segue reference="I1a-9M-kaX"/>
         <segue reference="gJ6-Bf-69L"/>
         <segue reference="LYc-nD-R9B"/>
@@ -1046,6 +1054,7 @@
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
         <image name="heart" catalog="system" width="128" height="109"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="image" width="971" height="974"/>
         <image name="message" catalog="system" width="128" height="113"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <image name="secondPost" width="874" height="874"/>
